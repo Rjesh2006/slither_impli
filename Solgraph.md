@@ -46,4 +46,6 @@ sudo usermod -aG docker ${USER}
 ```
 
 
-#Now we can start to install Solgraph:
+***Now we can start to install Solgraph:***
+
+*to be continued....*
