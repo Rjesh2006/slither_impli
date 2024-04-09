@@ -77,6 +77,7 @@ slither mycontract.sol
 **final interface**
 
 **interface:--**
+- ![Uploading image.png…]()
 
 
 
