@@ -29,3 +29,54 @@ Using Pip:
 ``
 pip3 install slither-analyzer
 ``
+**check a smart contract using Slither**
+
+*After you defined a contract that you want to check, the easiest way is just to run slither [target]. The target can be specified in several ways:*
+
+**Example: slither SecureContract.sol**
+
+*now put your smart contracts to check the threats and error in in ur smart contract*
+*use this smart contrats to checks threats and error also u can use any code which u like to check :-*
+
+
+```
+pragma solidity ^0.4.15;
+
+contract Missing{
+    address private owner;
+
+    modifier onlyowner {
+        require(msg.sender==owner);
+        _;
+    }
+
+    // The name of the constructor should be Missing
+    // Anyone can call the IamMissing once the contract is deployed
+    function IamMissing()
+        public 
+    {
+        owner = msg.sender;
+    }
+
+    function withdraw() 
+        public 
+        onlyowner
+    {
+       owner.transfer(this.balance);
+    }
+}
+```
+
+*The easiest way to scan the local copy of a smart contract is to run slither with a contract name. Within seconds you will receive the results:*
+
+```
+slither mycontract.sol
+```
+*Now' u will be able to see the whats the threats and error ur smart constract contain (**interface  willbe in greeen colors**)*
+
+**final interface**
+
+**interface:--**
+
+
+
