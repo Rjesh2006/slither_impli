@@ -77,7 +77,8 @@ slither mycontract.sol
 **final interface**
 
 **interface:--**
-- ![Uploading image.png…]()
+
+![image](https://github.com/Rjesh2006/slither_impli/assets/143868643/6cbc9709-4075-4efa-8bd2-056148ba80ea)
 
 
 
