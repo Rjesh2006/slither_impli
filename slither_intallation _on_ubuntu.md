@@ -72,7 +72,7 @@ contract Missing{
 ```
 slither mycontract.sol
 ```
-*Now' u will be able to see the whats the threats and error ur smart constract contain (**interface  willbe in greeen colors**)*
+*Now' u will be able to see the whats the threats and error ur smart constract contain (**error  will be in greeen colors**)*
 
 **final interface**
 
